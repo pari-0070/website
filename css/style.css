@@ -4,6 +4,7 @@
     --secondary: #5F656F;
     --light: #F5F5F5;
     --dark: #02245B;
+    --price_color:#32C36C;
 }
 
 .back-to-top {
@@ -819,4 +820,12 @@ h6,
     width: 100%;
     gap: 1rem;
     flex-direction: column;
+}
+
+.text_start {
+    text-align: start;
+}
+
+.price_color{
+    color: var(--price_color);
 }
